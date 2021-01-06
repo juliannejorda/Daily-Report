@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Daily-Report/static/css/main.9e989073.chunk.css",
+    "main.js": "/Daily-Report/static/js/main.8efa60cb.chunk.js",
+    "main.js.map": "/Daily-Report/static/js/main.8efa60cb.chunk.js.map",
+    "runtime-main.js": "/Daily-Report/static/js/runtime-main.43d3d282.js",
+    "runtime-main.js.map": "/Daily-Report/static/js/runtime-main.43d3d282.js.map",
+    "static/css/2.e6dcdc0b.chunk.css": "/Daily-Report/static/css/2.e6dcdc0b.chunk.css",
+    "static/js/2.00fe74d3.chunk.js": "/Daily-Report/static/js/2.00fe74d3.chunk.js",
+    "static/js/2.00fe74d3.chunk.js.map": "/Daily-Report/static/js/2.00fe74d3.chunk.js.map",
+    "static/js/3.a1dd3f0f.chunk.js": "/Daily-Report/static/js/3.a1dd3f0f.chunk.js",
+    "static/js/3.a1dd3f0f.chunk.js.map": "/Daily-Report/static/js/3.a1dd3f0f.chunk.js.map",
+    "index.html": "/Daily-Report/index.html",
+    "static/css/2.e6dcdc0b.chunk.css.map": "/Daily-Report/static/css/2.e6dcdc0b.chunk.css.map",
+    "static/css/main.9e989073.chunk.css.map": "/Daily-Report/static/css/main.9e989073.chunk.css.map",
+    "static/js/2.00fe74d3.chunk.js.LICENSE.txt": "/Daily-Report/static/js/2.00fe74d3.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Daily-Report/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43d3d282.js",
+    "static/css/2.e6dcdc0b.chunk.css",
+    "static/js/2.00fe74d3.chunk.js",
+    "static/css/main.9e989073.chunk.css",
+    "static/js/main.8efa60cb.chunk.js"
+  ]
+}

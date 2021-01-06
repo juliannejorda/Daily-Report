@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
 .App {
   text-align: center;
 }
@@ -36,3 +41,115 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* start of my stuff */
+/* .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;  
+} */
+
+
+.main-colour {
+  background-color: cornflowerblue;
+  padding: 3%;
+  border-radius: 25px;
+}
+
+#center-con {
+  margin-top: 0;
+  padding: 2%;
+}
+
+/* .content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} */
+
+.intro-text {
+  text-align: center;
+
+  margin-top: 15vh;
+  display: block;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.error-message {
+  color: #FF6565;
+  padding: .5em .2em;
+  height: 1em;
+  font-size: .8em;
+}
+
+#button {
+  background-color: red;
+  padding: 1% 2%;
+  font-size: 130%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* 
+.inputField {
+  width: 43%;
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  margin-top: "50%"
+} */
+
+.inputField {
+  width: 65%;
+  margin-top: 28px
+}
+
+#styledButton {
+  color: #cecd24;
+  text-decoration: none;
+  font-size: 2em;
+  display: inline-block;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  padding: 0.5em 2em;
+  border: 2px solid #cecd24;
+  transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+}
+
+#styledButton:hover {
+  padding: 0.5em 3.5em 0.5em 0.5em;
+}
+#styledButton:hover::before {
+  left: calc(100% - 3em);
+  right: 0;
+  transition: 0.3s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+}
+#styledButton:hover::after {
+  right: 0;
+  transition: right 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+}
+
+/* 
+.forForm {
+  margin-top: 30vh;
+} */
+
+.MuiForm-root {
+  color: pink;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  background: linear-gradient(to right bottom, #a2d2ff, #b4ccff, #c9c5fc, #ddbdf3, #efb6e5, #f1b4df, #f2b2d9, #f3b0d3, #eab1d7, #e0b2d9, #d6b3db, #cdb4db) fixed;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+/* #introMainFont {
+  font-family: 'Playfair Display', serif;
+} */

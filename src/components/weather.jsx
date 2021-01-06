@@ -81,8 +81,8 @@ function Weather(props){
     
     const api = {
         key: "205f180b761c4200a0855b16bc61d9f8",
-        base: "https://juliannejorda.github.io/Daily-Report/http://api.openweathermap.org/data/2.5/weather?q=",
-        iconImg: "http://openweathermap.org/img/wn/"
+        base: "https://api.openweathermap.org/data/2.5/weather?q=",
+        iconImg: "https://openweathermap.org/img/wn/"
     }
 
     const url = `${api.base}${props.city}&appid=${api.key}&units=metric`

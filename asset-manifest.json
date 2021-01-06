@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Daily-Report/static/css/main.9e989073.chunk.css",
-    "main.js": "/Daily-Report/static/js/main.8efa60cb.chunk.js",
-    "main.js.map": "/Daily-Report/static/js/main.8efa60cb.chunk.js.map",
+    "main.js": "/Daily-Report/static/js/main.d4dafe55.chunk.js",
+    "main.js.map": "/Daily-Report/static/js/main.d4dafe55.chunk.js.map",
     "runtime-main.js": "/Daily-Report/static/js/runtime-main.43d3d282.js",
     "runtime-main.js.map": "/Daily-Report/static/js/runtime-main.43d3d282.js.map",
     "static/css/2.e6dcdc0b.chunk.css": "/Daily-Report/static/css/2.e6dcdc0b.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.e6dcdc0b.chunk.css",
     "static/js/2.00fe74d3.chunk.js",
     "static/css/main.9e989073.chunk.css",
-    "static/js/main.8efa60cb.chunk.js"
+    "static/js/main.d4dafe55.chunk.js"
   ]
 }

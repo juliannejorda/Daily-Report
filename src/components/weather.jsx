@@ -125,10 +125,14 @@ function Weather(props){
 //         const data = await api_call.json();
 //         console.log(data)
 //     }
+useEffect( () => {
+    console.log(validCity);
+}, [validCity]);
 
     return (<div>
     {/* {validCity ?  (<validWeather weather={weather} img={imgURL}/>) : (<h1>Enter a valid city pls</h1> )} */}
-        {validCity ? (<ValidWeather humidity={humidity} feelsLike={feelsLike} description={description} city={city} weather={weather} img={imgURL}/>) : <h1 className={classes.incorrect}>Please enter a valid city.</h1>}
+        {/* {validCity ? (<ValidWeather humidity={humidity} feelsLike={feelsLike} description={description} city={city} weather={weather} img={imgURL}/>) : <h1 className={classes.incorrect}>Please enter a valid city.</h1>} */}
+        <ValidWeather validCity={validCity} humidity={humidity} feelsLike={feelsLike} description={description} city={city} weather={weather} img={imgURL}/>
     {/* {validCity ? <h1>Hello</h1> : <p>Bye</p>} */}
     {/* <img src={`${api.iconImg}${icon}@2x.png"`} ></img> */}
 

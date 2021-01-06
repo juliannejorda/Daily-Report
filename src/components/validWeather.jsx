@@ -91,7 +91,10 @@ function ValidWeather(props) {
         <div className={classes.descrip}><h3 className={classes.descripTitle}>{props.description}</h3>
         <div className={classes.feels}>
         <h5 className={classes.feelsHeading} >Feels like:</h5><h5 className={classes.feelsP}>{props.feelsLike}°C</h5>
-        <h5 className={classes.feelsHeading}>Humidity:</h5><h5 className={classes.feelsP}>{props.humidity}%</h5></div>
+        <h5 className={classes.feelsHeading}>Humidity:</h5><h5 className={classes.feelsP}>{props.humidity}%</h5>
+        
+        </div>
+
         </div>
         </div>
     </div>

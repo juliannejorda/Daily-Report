@@ -1,0 +1,11 @@
+.reportPage {
+    display: table;
+    /* position: inherit; */
+    max-width: 100% !important;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: palegreen; */
+    /* margin-bottom: 10vh; */
+}
